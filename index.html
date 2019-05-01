@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Clicker</title>
+</head>
+
+<body>
+  <header>
+    <div class="timer" id="timer"></div>
+    <div class="counter" id="counter"></div>
+    <div class="info" id="info">
+      <p>Your Score: </p>
+    </div>
+    <div class="enterSize" id="enterSize">
+      <p>Выбирете размер круга:</p>
+      <input id="ranger" type="range" min="0" max="100" list="rangeList1" value="25">
+      <span id="rangeValue">25</span>
+      <!-- <input type="text" name="text" value=""> -->
+      <input id="btn" class="btn" type="submit" name="btn" value="Start">
+    </div>
+  </header>
+  <div class="wrapper" id="wrapper">
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
