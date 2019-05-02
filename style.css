@@ -106,6 +106,11 @@ margin-left: -3%;
 :active{
   outline:none;
 }
+.btn_final:focus,
+:active{
+  outline:none;
+}
+
 
 .timer{
   text-align: center;
@@ -116,4 +121,60 @@ margin-left: -3%;
   margin-left:50%;
   font-size: 50px;
   font-weight: bold;
+}
+
+.btn_final{
+  font-size: 20px;
+  padding: 5px 30px;
+  background: #e6325c;
+  border:none;
+  border-radius: 3px;
+  margin-top: 20px;
+  /* font-weight: bold; */
+}
+
+.btn_final:hover{
+  cursor: pointer;
+}
+
+.finalScore{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .8;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:6;
+  display: none;
+}
+
+.modal_p{
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+}
+.modal_p p{
+  display: inline-block;
+}
+.finalScore p{
+  /* display: block; */
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.modal{
+  text-align: center;
+  width: 300px;
+  height: auto;
+  /* background: #000; */
+  position: absolute;
+  z-index:7;
+  top:20%;
+  left:40%;
+  /* margin: auto; */
+  padding: 20px 30px;
+  padding-bottom: 50px;
+  border-radius: 10px;
 }
